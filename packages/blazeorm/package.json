@@ -1,21 +1,20 @@
 {
 	"name": "blazeorm",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "",
 	"main": "index.ts",
 	"scripts": {},
 	"author": "Imtiaj Bin Aoual <imtiajbinaoual@gmail.com>",
 	"license": "MIT",
 	"keywords": [
-		"react",
-		"react-native",
-		"ui",
-		"tailwindcss",
-		"tailwind",
-		"tailwindcss-react-native",
-		"twrnc",
-		"tailwind-react-native",
-		"tailwind-rn"
+		"firebase",
+		"firebase orm",
+		"orm",
+		"blazeorm",
+		"typescript",
+		"blaze orm",
+		"firebase-orm",
+		"firebase web orm"
 	],
 	"repository": {
 		"type": "git",
