@@ -1,4 +1,4 @@
-# Tailwind React Native Classnames 🏄‍♂️
+# BlazeORM 🔥
 
 > A simple typed orm for firebase firestore
 
