@@ -1,0 +1,29 @@
+{
+	"name": "blazeorm",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.ts",
+	"scripts": {},
+	"author": "Imtiaj Bin Aoual <imtiajbinaoual@gmail.com>",
+	"license": "MIT",
+	"keywords": [
+		"react",
+		"react-native",
+		"ui",
+		"tailwindcss",
+		"tailwind",
+		"tailwindcss-react-native",
+		"twrnc",
+		"tailwind-react-native",
+		"tailwind-rn"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Imtiajrex/blazeorm.git"
+	},
+	"peerDependencies": {},
+	"dependencies": {
+		"firebase": "^9.23.0",
+		"zod": "^3.23.8"
+	}
+}
