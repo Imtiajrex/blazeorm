@@ -1,8 +1,10 @@
 # BlazeORM 🔥
 
-> A simple typed orm for firebase firestore
+> A simple typed orm for firebase firestore using zod
 
 ```jsx
+import { blazeTable } from "blazeorm";
+import { z } from "zod";
 export const users = blazeTable(
 	"users",
 	z.object({
@@ -45,6 +47,8 @@ pnpm add blazeorm
 ### Create a model
 
 ```jsx
+import { blazeTable } from "blazeorm";
+import { z } from "zod";
 export const users = blazeTable(
 	"users",
 	z.object({
