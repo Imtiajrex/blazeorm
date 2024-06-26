@@ -1,0 +1,27 @@
+{
+	"name": "react-firebase-query-hooks",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.ts",
+	"scripts": {},
+	"author": "Imtiaj Bin Aoual <imtiajbinaoual@gmail.com>",
+	"license": "MIT",
+	"keywords": [
+		"firebase",
+		"firebase hooks",
+		"react",
+		"react query",
+		"react query firebase"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Imtiajrex/blazeorm.git"
+	},
+	"peerDependencies": {},
+	"dependencies": {
+		"@tanstack/react-query": "^5.48.0",
+		"firebase": "^10.12.2",
+		"lodash": "^4.17.21",
+		"react": "^18.3.1"
+	}
+}
