@@ -1,9 +1,11 @@
+import { FirebaseApp, getApp } from "firebase/app";
 import {
 	addDoc,
 	collection,
 	deleteDoc,
 	doc,
 	DocumentData,
+	Firestore,
 	getDoc,
 	getFirestore,
 	QueryDocumentSnapshot,
@@ -13,7 +15,8 @@ import { z, ZodObject, ZodRawShape } from "zod";
 
 export const blazeTable = <T extends ZodRawShape>(
 	collectionName: string,
-	schema: ZodObject<T>
+	schema: ZodObject<T>,
+	firestore: Firestore
 ) => {
 	//get schema keys
 	const schemaKeys = Object.keys(schema.shape) as (keyof T)[];
@@ -27,7 +30,6 @@ export const blazeTable = <T extends ZodRawShape>(
 		}
 	);
 
-	const firestore = getFirestore();
 	type SchemaType = z.infer<typeof schema>;
 	type SchemaWithId = SchemaType & { id?: string };
 	const collectionRef = getCollection<SchemaWithId>(collectionName);
