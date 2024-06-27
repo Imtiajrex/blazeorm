@@ -1,6 +1,6 @@
 {
 	"name": "react-firebase-query-hooks",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "",
 	"main": "index.ts",
 	"scripts": {},
@@ -20,7 +20,7 @@
 	"peerDependencies": {},
 	"dependencies": {
 		"@tanstack/react-query": "^5.48.0",
-		"firebase": "^10.12.2",
+		"firebase": "^9.23.0",
 		"lodash": "^4.17.21",
 		"react": "^18.3.1"
 	}
