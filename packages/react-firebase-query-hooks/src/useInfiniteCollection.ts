@@ -101,7 +101,7 @@ export function useInfiniteCollection<T extends DocumentData>({
 		...props,
 	});
 	const values = useMemo(
-		() => getDataFromPages(infiniteQuery.data),
+		() => getDataFromPages<T>(infiniteQuery.data! as any),
 		[infiniteQuery.data]
 	);
 	return useMemo(
